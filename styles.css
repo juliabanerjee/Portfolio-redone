@@ -1,6 +1,35 @@
+#burgermenu {
+  color: #d2d3de;
+}
+
+#mainsection #h1-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+}
+#mainsection #h1-flex h1 {
+  color: #d2d3de;
+}
+#mainsection #h1-flex h1 .thirdColor {
+  color: #41edfa;
+}
+#mainsection #p-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-content: flex-end;
+}
+#mainsection #p-flex p {
+  color: #41edfa;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Press Start 2P", cursive;
+  background-color: #171b83;
 }

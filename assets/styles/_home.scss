@@ -1,1 +1,44 @@
 @import "./assets/styles/_variables.scss";
+
+//mobile
+#burgermenu {
+  color: $secondarycolor;
+}
+
+#mainsection {
+
+
+
+  #h1-flex {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+
+    h1 {
+      color: $secondarycolor;
+
+      .thirdColor {
+        color: $tertiarycolor;
+      }
+    }
+  }
+
+  #p-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-content: flex-end;
+
+    p {
+      color: $tertiarycolor;
+    }
+  }
+}
+
+
+//desktop
+@media only screen and (min-width: 768px) {}
