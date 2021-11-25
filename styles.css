@@ -23,6 +23,9 @@ body #about-main-section p {
   color: #d2d3de;
 }
 
+body {
+  height: 100vh;
+}
 body #burgermenu {
   display: flex;
   justify-content: right;
@@ -30,8 +33,24 @@ body #burgermenu {
   color: #d2d3de;
   text-align: right;
 }
-body h2 {
+body #h2-flex {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+body #h2-flex h2 {
   color: #41edfa;
+}
+body .icon_grid {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+body .icon_grid i {
+  color: #d2d3de;
 }
 
 body #burgermenu {

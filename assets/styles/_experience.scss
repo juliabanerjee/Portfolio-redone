@@ -1,14 +1,36 @@
 @import "./assets/styles/_variables.scss";
+//mobile
+body {
+  height: 100vh;
 
-body{
-  #burgermenu{
+  #burgermenu {
     display: flex;
     justify-content: right;
     align-content: flex-start;
     color: $secondarycolor;
     text-align: right;
   }
-  h2{
-    color: $tertiarycolor;
+
+  #h2-flex {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    h2 {
+      color: $tertiarycolor;
+    }
+  }
+
+  .icon_grid {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+    i {
+      color: $secondarycolor;
+    }
   }
 }
