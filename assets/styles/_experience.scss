@@ -1,1 +1,14 @@
 @import "./assets/styles/_variables.scss";
+
+body{
+  #burgermenu{
+    display: flex;
+    justify-content: right;
+    align-content: flex-start;
+    color: $secondarycolor;
+    text-align: right;
+  }
+  h2{
+    color: $tertiarycolor;
+  }
+}

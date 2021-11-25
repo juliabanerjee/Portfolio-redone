@@ -1,21 +1,28 @@
 @import "./assets/styles/_variables.scss";
 
 //mobile
-#burgermenu {
-  color: $secondarycolor;
-}
+body{
+  #burgermenu {
+    display: flex;
+    justify-content: right;
+    align-content: flex-start;
+    i{
+      color: $secondarycolor;
+    }
+   
+  }
 
 #mainsection {
-
+  height: 100vh;
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+align-content: space-around;
 
 
   #h1-flex {
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-items: flex-start;
+   
 
     h1 {
       color: $secondarycolor;
@@ -27,18 +34,14 @@
   }
 
   #p-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-content: flex-end;
+    
 
     p {
       color: $tertiarycolor;
     }
   }
 }
-
+}
 
 //desktop
 @media only screen and (min-width: 768px) {}

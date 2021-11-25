@@ -1,1 +1,33 @@
 @import "./assets/styles/_variables.scss";
+
+//mobile 
+
+body{
+  #burgermenu{
+    display: flex;
+    justify-content: right;
+    align-content: flex-start;
+    color: $secondarycolor;
+    text-align: right;
+  }
+#about-main-section{
+height: 100vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: space-around;
+text-align: center;
+
+h2{
+  color: $tertiarycolor;
+}
+
+img{
+  color: $secondarycolor;
+}
+p{
+  color: $secondarycolor;
+}
+}
+
+}

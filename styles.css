@@ -1,28 +1,61 @@
-#burgermenu {
+body #burgermenu {
+  display: flex;
+  justify-content: right;
+  align-content: flex-start;
+  color: #d2d3de;
+  text-align: right;
+}
+body #about-main-section {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  text-align: center;
+}
+body #about-main-section h2 {
+  color: #41edfa;
+}
+body #about-main-section img {
+  color: #d2d3de;
+}
+body #about-main-section p {
   color: #d2d3de;
 }
 
-#mainsection #h1-flex {
+body #burgermenu {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  align-items: flex-start;
-}
-#mainsection #h1-flex h1 {
+  justify-content: right;
+  align-content: flex-start;
   color: #d2d3de;
+  text-align: right;
 }
-#mainsection #h1-flex h1 .thirdColor {
+body h2 {
   color: #41edfa;
 }
-#mainsection #p-flex {
+
+body #burgermenu {
+  display: flex;
+  justify-content: right;
+  align-content: flex-start;
+}
+body #burgermenu i {
+  color: #d2d3de;
+}
+body #mainsection {
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   text-align: center;
-  align-content: flex-end;
+  align-content: space-around;
 }
-#mainsection #p-flex p {
+body #mainsection #h1-flex h1 {
+  color: #d2d3de;
+}
+body #mainsection #h1-flex h1 .thirdColor {
+  color: #41edfa;
+}
+body #mainsection #p-flex p {
   color: #41edfa;
 }
 
