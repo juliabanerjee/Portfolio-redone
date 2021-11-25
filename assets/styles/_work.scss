@@ -1,1 +1,15 @@
 @import "./assets/styles/_variables.scss";
+
+body{
+  height: 100vh;
+#h2-flex{
+  display: flex;
+  justify-content: center;
+  h2{
+    color: $tertiarycolor;
+  }
+}
+#work-display{
+  border: 1px solid $secondarycolor;
+}
+}
