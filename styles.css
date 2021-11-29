@@ -1,6 +1,15 @@
 body {
   height: 100vh;
 }
+body .burgermenu__container {
+  display: flex;
+  justify-content: right;
+  align-content: flex-start;
+}
+body .burgermenu__container #menu-icon {
+  margin: 10px 10px;
+  color: #d2d3de;
+}
 body #h2-flex {
   display: flex;
   justify-content: center;
@@ -12,12 +21,14 @@ body #work-display {
   border: 1px solid #d2d3de;
 }
 
-body #burgermenu {
+body .burgermenu__container {
   display: flex;
   justify-content: right;
   align-content: flex-start;
+}
+body .burgermenu__container #menu-icon {
+  margin: 10px 10px;
   color: #d2d3de;
-  text-align: right;
 }
 body #about-main-section {
   height: 100vh;
@@ -40,12 +51,14 @@ body #about-main-section p {
 body {
   height: 100vh;
 }
-body #burgermenu {
+body .burgermenu__container {
   display: flex;
   justify-content: right;
   align-content: flex-start;
+}
+body .burgermenu__container #menu-icon {
+  margin: 10px 10px;
   color: #d2d3de;
-  text-align: right;
 }
 body #h2-flex {
   display: flex;
@@ -67,12 +80,35 @@ body .icon_grid i {
   color: #d2d3de;
 }
 
-body #burgermenu {
+body .burgermenu__container {
   display: flex;
   justify-content: right;
   align-content: flex-start;
 }
-body #burgermenu i {
+body .burgermenu__container #menu-icon {
+  margin: 10px 10px;
+  color: #d2d3de;
+}
+body .contact__h2 {
+  color: #41edfa;
+}
+body .contact__icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+body .contact__icon-container i {
+  color: #d2d3de;
+}
+
+body .burgermenu__container {
+  display: flex;
+  justify-content: right;
+  align-content: flex-start;
+}
+body .burgermenu__container #menu-icon {
   margin: 10px 10px;
   color: #d2d3de;
 }
@@ -83,17 +119,17 @@ body #mainsection {
   text-align: center;
   align-content: space-around;
 }
-body #mainsection #h1-flex h1 {
+body #mainsection .h1__container h1 {
   color: #d2d3de;
 }
-body #mainsection #h1-flex h1 .thirdColor {
+body #mainsection .h1__container h1 .thirdColor {
   color: #41edfa;
 }
-body #mainsection #h1-flex i {
+body #mainsection .h1__container i {
   margin: 15px;
   color: #d2d3de;
 }
-body #mainsection #p-flex p {
+body #mainsection .p__container p {
   color: #41edfa;
 }
 

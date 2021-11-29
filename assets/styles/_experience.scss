@@ -3,12 +3,14 @@
 body {
   height: 100vh;
 
-  #burgermenu {
+  .burgermenu__container {
     display: flex;
     justify-content: right;
     align-content: flex-start;
-    color: $secondarycolor;
-    text-align: right;
+    #menu-icon{
+      margin: 10px 10px;
+      color: $secondarycolor;
+    }
   }
 
   #h2-flex {

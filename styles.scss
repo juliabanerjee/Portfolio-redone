@@ -4,11 +4,4 @@
 @import "./assets/styles/_experience.scss";
 @import "./assets/styles/_contact.scss";
 @import "./assets/styles/_home.scss";
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  font-family: $primaryfont;
-  background-color: $primarycolor;
-}
+@import "./assets/styles/_reset";

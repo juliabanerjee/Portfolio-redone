@@ -3,12 +3,14 @@
 //mobile 
 
 body{
-  #burgermenu{
+  .burgermenu__container {
     display: flex;
     justify-content: right;
     align-content: flex-start;
-    color: $secondarycolor;
-    text-align: right;
+    #menu-icon{
+      margin: 10px 10px;
+      color: $secondarycolor;
+    }
   }
 #about-main-section{
 height: 100vh;

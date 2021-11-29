@@ -2,11 +2,11 @@
 
 //mobile
 body{
-  #burgermenu {
+  .burgermenu__container {
     display: flex;
     justify-content: right;
     align-content: flex-start;
-    i{
+    #menu-icon{
       margin: 10px 10px;
       color: $secondarycolor;
     }
@@ -21,7 +21,7 @@ text-align: center;
 align-content: space-around;
 
 
-  #h1-flex {
+  .h1__container {
 
    
 
@@ -40,7 +40,7 @@ align-content: space-around;
     
   }
 
-  #p-flex {
+  .p__container {
     
 
     p {

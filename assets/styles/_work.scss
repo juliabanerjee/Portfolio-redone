@@ -1,15 +1,29 @@
 @import "./assets/styles/_variables.scss";
 
-body{
+body {
   height: 100vh;
-#h2-flex{
-  display: flex;
-  justify-content: center;
-  h2{
-    color: $tertiarycolor;
+
+  .burgermenu__container {
+    display: flex;
+    justify-content: right;
+    align-content: flex-start;
+
+    #menu-icon {
+      margin: 10px 10px;
+      color: $secondarycolor;
+    }
   }
-}
-#work-display{
-  border: 1px solid $secondarycolor;
-}
-}
+
+    #h2-flex {
+      display: flex;
+      justify-content: center;
+
+      h2 {
+        color: $tertiarycolor;
+      }
+    }
+
+    #work-display {
+      border: 1px solid $secondarycolor;
+    }
+  }

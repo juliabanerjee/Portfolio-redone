@@ -1,1 +1,30 @@
 @import "./assets/styles/_variables.scss";
+
+body{
+
+  .burgermenu__container {
+    display: flex;
+    justify-content: right;
+    align-content: flex-start;
+    #menu-icon{
+      margin: 10px 10px;
+      color: $secondarycolor;
+    }
+   
+  }
+  .contact__h2{
+    color: $tertiarycolor;
+  }
+  .contact__icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    
+    
+    i{
+      color: $secondarycolor;
+    }
+  }
+}
