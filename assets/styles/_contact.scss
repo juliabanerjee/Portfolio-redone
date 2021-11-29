@@ -10,6 +10,11 @@ body{
       margin: 10px 10px;
       color: $secondarycolor;
     }
+
+    .burgermenu__items{
+      display: none;
+      color: $tertiarycolor;
+    }
    
   }
   .contact__h2{

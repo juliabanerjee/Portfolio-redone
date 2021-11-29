@@ -89,6 +89,10 @@ body .burgermenu__container #menu-icon {
   margin: 10px 10px;
   color: #d2d3de;
 }
+body .burgermenu__container .burgermenu__items {
+  display: none;
+  color: #41edfa;
+}
 body .contact__h2 {
   color: #41edfa;
 }
