@@ -73,6 +73,7 @@ body #burgermenu {
   align-content: flex-start;
 }
 body #burgermenu i {
+  margin: 10px 10px;
   color: #d2d3de;
 }
 body #mainsection {
@@ -87,6 +88,10 @@ body #mainsection #h1-flex h1 {
 }
 body #mainsection #h1-flex h1 .thirdColor {
   color: #41edfa;
+}
+body #mainsection #h1-flex i {
+  margin: 15px;
+  color: #d2d3de;
 }
 body #mainsection #p-flex p {
   color: #41edfa;

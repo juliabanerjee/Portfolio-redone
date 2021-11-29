@@ -7,6 +7,7 @@ body{
     justify-content: right;
     align-content: flex-start;
     i{
+      margin: 10px 10px;
       color: $secondarycolor;
     }
    
@@ -31,6 +32,12 @@ align-content: space-around;
         color: $tertiarycolor;
       }
     }
+    i{
+      margin: 15px;
+      color: $secondarycolor;
+
+    }
+    
   }
 
   #p-flex {
