@@ -6,16 +6,18 @@ body{
     display: flex;
     justify-content: right;
     align-content: flex-start;
-    #menu-icon{
+    i{
       margin: 10px 10px;
       color: $secondarycolor;
     }
-
-    .burgermenu__items{
+    #close-menu-icon{
       display: none;
-      color: $tertiarycolor;
     }
    
+  }
+  .burgermenu__items{
+    display: none;
+    color: $tertiarycolor;
   }
   .contact__h2{
     color: $tertiarycolor;
@@ -32,4 +34,5 @@ body{
       color: $secondarycolor;
     }
   }
+  
 }

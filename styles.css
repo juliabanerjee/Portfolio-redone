@@ -85,11 +85,14 @@ body .burgermenu__container {
   justify-content: right;
   align-content: flex-start;
 }
-body .burgermenu__container #menu-icon {
+body .burgermenu__container i {
   margin: 10px 10px;
   color: #d2d3de;
 }
-body .burgermenu__container .burgermenu__items {
+body .burgermenu__container #close-menu-icon {
+  display: none;
+}
+body .burgermenu__items {
   display: none;
   color: #41edfa;
 }
