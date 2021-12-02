@@ -1,61 +1,80 @@
 @import "./assets/styles/_variables.scss";
 
-body{
-  .menu{
+body {
+  .menu {
+
     list-style-type: none;
-    display: flex ;
-    flex-direction: column ;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     width: 100%;
     position: fixed;
-    gap: 2rem ;
+    gap: 2rem;
     transition: 0.2s;
     transform: translateY(-100%);
+
+    .menuItem {
+      a {
+
+        color: $tertiarycolor;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+          color: $quaternarycolor;
+        }
+
+      }
+    }
   }
 
-  .showMenu{
-transform: translateY(0);
+  .showMenu {
+    transform: translateY(0);
   }
 
   .burgermenu__container {
     position: fixed;
-  z-index: 100;
-  top: 1rem;
-  right: 1rem;
-  padding: 4px;
-  
-  
-  cursor: pointer;
-    
-    i{
-      
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+
+
+    cursor: pointer;
+
+    i {
+
       margin: 10px 10px;
       color: $secondarycolor;
     }
-    #close{
+
+    #close {
       display: none;
     }
-   
+
   }
-  .burgermenu__items{
+
+  .burgermenu__items {
     display: none;
     color: $tertiarycolor;
   }
-  .contact__h2{
+
+  .contact__h2 {
     color: $tertiarycolor;
   }
-  .contact__icon-container{
+
+  .contact__icon-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
     margin-top: 20px;
-    
-    
-    i{
+
+
+    i {
       color: $secondarycolor;
     }
   }
-  
+
 }

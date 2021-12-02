@@ -13,6 +13,14 @@ body .menu {
   transition: 0.2s;
   transform: translateY(-100%);
 }
+body .menu .menuItem a {
+  color: #41edfa;
+  text-decoration: none;
+}
+body .menu .menuItem a:hover {
+  text-decoration: underline;
+  color: #ee9eab;
+}
 body .showMenu {
   transform: translateY(0);
 }
@@ -53,6 +61,14 @@ body .menu {
   gap: 2rem;
   transition: 0.2s;
   transform: translateY(-100%);
+}
+body .menu .menuItem a {
+  color: #41edfa;
+  text-decoration: none;
+}
+body .menu .menuItem a:hover {
+  text-decoration: underline;
+  color: #ee9eab;
 }
 body .showMenu {
   transform: translateY(0);
@@ -105,6 +121,14 @@ body .menu {
   transition: 0.2s;
   transform: translateY(-100%);
 }
+body .menu .menuItem a {
+  color: #41edfa;
+  text-decoration: none;
+}
+body .menu .menuItem a:hover {
+  text-decoration: underline;
+  color: #ee9eab;
+}
 body .showMenu {
   transform: translateY(0);
 }
@@ -155,6 +179,14 @@ body .menu {
   transition: 0.2s;
   transform: translateY(-100%);
 }
+body .menu .menuItem a {
+  color: #41edfa;
+  text-decoration: none;
+}
+body .menu .menuItem a:hover {
+  text-decoration: underline;
+  color: #ee9eab;
+}
 body .showMenu {
   transform: translateY(0);
 }
@@ -202,6 +234,14 @@ body .menu {
   gap: 2rem;
   transition: 0.2s;
   transform: translateY(-100%);
+}
+body .menu .menuItem a {
+  color: #41edfa;
+  text-decoration: none;
+}
+body .menu .menuItem a:hover {
+  text-decoration: underline;
+  color: #ee9eab;
 }
 body .showMenu {
   transform: translateY(0);
